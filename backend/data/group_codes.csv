@@ -1,0 +1,6 @@
+code,name,meaning
+CO,Contractual Obligation,Amount the provider is contractually obligated to write off; the patient generally cannot be billed
+PR,Patient Responsibility,Amount that may be billed to the patient (deductible, coinsurance, copay, or non-covered)
+OA,Other Adjustment,Adjustment that fits neither CO nor PR
+PI,Payer Initiated Reduction,Reduction the payer made that is not the patient's responsibility
+CR,Correction and Reversal,Correction or reversal of a previous claim payment
