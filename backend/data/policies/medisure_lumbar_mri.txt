@@ -1,0 +1,13 @@
+PAYER: MEDISURE HEALTH
+TITLE: MP-014 MRI of the Lumbar Spine (CPT 72148)
+
+Medisure Health considers magnetic resonance imaging of the lumbar spine (CPT 72148, 72149, 72158) medically necessary when the coverage criteria below are met. Claims that do not meet these criteria may be denied for medical necessity (CARC 50, remark N115).
+
+Coverage criteria for lumbar MRI:
+1. Low back pain with radicular symptoms must be documented for at least 6 weeks despite a trial of conservative therapy.
+2. Conservative therapy must include at least two of the following: NSAIDs or analgesics, supervised physical therapy or a home exercise program, and activity modification.
+3. Documentation must include neurological examination findings such as muscle weakness, sensory loss, reflex changes, or a positive straight leg raise.
+4. Imaging is covered without a conservative therapy trial when red flags are present: suspected cauda equina syndrome, progressive motor deficit, suspected infection or malignancy, or recent significant trauma.
+5. Repeat lumbar MRI within 12 months is covered only when documentation confirms a significant change in symptoms or examination findings.
+
+Documentation requirements: the clinical note must state the duration of symptoms, the treatments tried and their outcome, and the physician's rationale for how the imaging result will change management, for example surgical referral or epidural injection planning.

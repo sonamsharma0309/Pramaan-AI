@@ -1,0 +1,8 @@
+PAYER: ALL
+TITLE: General Appeal Submission Standards
+
+A first-level provider appeal must be filed within 180 days of the date of the denial or remittance advice. A complete appeal packet must include the patient identifiers, the claim number, a copy of the denial or remittance advice, the clinical records that support the service, and a statement that references the payer's published coverage criteria.
+
+Peer-to-peer review: the treating physician may request a peer-to-peer conversation with the payer's medical director, which is recommended for medical necessity denials. Expedited review is available when delay would seriously jeopardize the patient's health.
+
+Appeals that cite the specific policy section and map each criterion to a dated chart entry are more likely to be overturned than general statements of medical necessity.

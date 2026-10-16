@@ -1,0 +1,10 @@
+PAYER: BLUEHORIZON INSURANCE
+TITLE: BH-REHAB-02 Outpatient Physical Therapy (CPT 97110, 97140)
+
+BlueHorizon Insurance covers outpatient physical therapy when there is a clinical expectation of measurable functional improvement. Payment may be adjusted when documentation does not support the number or frequency of units billed (CARC 151).
+
+Coverage criteria for therapy beyond 20 visits per calendar year:
+1. Documentation must show measurable functional progress using objective measures such as range of motion, strength testing, WOMAC, DASH, or Oswestry scores.
+2. A plan of care with measurable goals must be documented and reviewed at least every 30 days.
+3. Therapeutic exercise (CPT 97110) is billed in 15-minute timed units, and each unit must be supported by documented treatment time; up to 4 units per visit are covered when medically necessary.
+4. The record must state ongoing functional deficits and why continued skilled therapy is medically necessary.

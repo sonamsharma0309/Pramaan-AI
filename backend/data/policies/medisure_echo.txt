@@ -1,0 +1,11 @@
+PAYER: MEDISURE HEALTH
+TITLE: MP-031 Transthoracic Echocardiography (CPT 93306)
+
+Medisure Health covers transthoracic echocardiography with Doppler (CPT 93306) when it is medically necessary for the evaluation of known or suspected cardiac disease.
+
+Coverage criteria for echocardiography:
+1. The record must document new or worsening symptoms such as dyspnea, edema, syncope, chest pain, or a newly detected murmur.
+2. Evaluation of suspected heart failure is covered when supported by objective findings such as elevated BNP, cardiomegaly on chest imaging, or elevated jugular venous pressure.
+3. Follow-up echocardiography is covered only when there is a documented change in clinical status or when the result will change treatment.
+
+Claim submission requirements: claims for CPT 93306 must include the ordering physician NPI, the ICD-10 diagnosis code supporting the indication, and the interpreting physician's signed report. Claims missing any of these items are returned as lacking information (CARC 16, remark MA130) and may be resubmitted with the missing documentation.

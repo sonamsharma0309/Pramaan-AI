@@ -1,0 +1,12 @@
+PAYER: BLUEHORIZON INSURANCE
+TITLE: BH-ORTHO-07 Total Knee Arthroplasty (CPT 27447)
+
+BlueHorizon Insurance requires prior authorization for all elective total knee arthroplasty (CPT 27447). Claims submitted without a valid authorization are denied (CARC 197, remark M62).
+
+Medical necessity criteria for total knee arthroplasty:
+1. Radiographic evidence of advanced osteoarthritis, Kellgren-Lawrence grade 3 or 4, must be documented.
+2. Failure of at least 3 months of conservative therapy must be documented, including NSAIDs, physical therapy, weight management, or intra-articular injections.
+3. Pain and functional limitation must significantly affect activities of daily living, such as walking, climbing stairs, or use of an assistive device.
+4. BMI under 40 is required unless the surgeon documents a clinical rationale for proceeding.
+
+Retrospective authorization: a retrospective authorization review may be requested within 14 days of service when the authorization was submitted before the procedure but was not processed, or when the procedure was urgent. The request must include the clinical notes, the date the authorization was first requested, and the reference number issued by the payer.
