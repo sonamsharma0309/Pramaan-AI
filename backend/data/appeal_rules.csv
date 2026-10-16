@@ -1,0 +1,9 @@
+payer,plan_type,appeal_level,deadline_days,deadline_basis,submit_method,address_or_portal,source_url,verified_by_you
+Federal baseline,ACA non-grandfathered private plan,Internal appeal,180,From receipt of the adverse benefit determination (45 CFR 147.136),See denial letter,See denial letter,,NO - verify
+Federal baseline,Original Medicare Part A/B,Redetermination (level 1),120,From receipt of the initial determination notice,See Medicare Summary Notice,See Medicare Summary Notice,,NO - verify
+Aetna,,,,,,,,
+UnitedHealthcare,,,,,,,,
+Cigna,,,,,,,,
+Humana,,,,,,,,
+Anthem / Elevance,,,,,,,,
+Blue Cross Blue Shield (your state),,,,,,,,
