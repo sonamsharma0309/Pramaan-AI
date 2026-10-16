@@ -1,0 +1,2 @@
+# Optional: semantic retrieval (set EMBEDDINGS=true). Large download (~1 GB with PyTorch).
+sentence-transformers>=3.0
