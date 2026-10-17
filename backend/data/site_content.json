@@ -1,0 +1,66 @@
+{
+  "hero": {"title": "Every denial leaves a paper trail. We follow it for you.", "lead": "Pramaan AI reads a denied claim, finds the payer's own coverage policy, pulls proof from the patient's chart and drafts an appeal that cites both.",
+           "proof": ["Free eligibility check", "Cited in the letter", "You review before anything is sent"]},
+  "stats": [
+    {"value": "60-70%", "label": "of denied claims are payable when appealed", "source": "Project problem statement (Pramaan AI, GLA University). Verify against a published source before citing."},
+    {"value": "10-15%", "label": "of practice revenue is lost to unworked denials", "source": "Project problem statement. Verify before citing."},
+    {"value": "70%", "label": "less admin time targeted for appeals", "source": "Project target, not a measured result."}
+  ],
+  "flow": [
+    {"title": "Read the denial", "text": "Parses 835 remittance files and extracts the denial code, group code and remark."},
+    {"title": "Match the policy", "text": "Searches the payer's own medical policy for the clauses that apply."},
+    {"title": "Pull the proof", "text": "Finds labs, exam findings and failed treatments in the chart notes."},
+    {"title": "Draft the letter", "text": "Writes the appeal with [P] policy and [E] evidence citations."},
+    {"title": "Send and track", "text": "Download the watermarked packet, then record the outcome and recovered revenue."}
+  ],
+  "features": [
+    {"icon": "file", "title": "835 / ERA parsing", "text": "Reads X12 remittance files and separates real denials from patient responsibility."},
+    {"icon": "search", "title": "Policy retrieval (RAG)", "text": "Indexes payer manuals and returns the exact clauses for the procedure and denial."},
+    {"icon": "layers", "title": "Chart evidence mapping", "text": "Checks each policy criterion against chart sentences and flags what is missing."},
+    {"icon": "spark", "title": "Cited appeal letters", "text": "Drafts with Claude when a key is set, or an offline template. Both cite their sources."},
+    {"icon": "chart", "title": "Win-probability model", "text": "A logistic regression ranks appeals. It learns from your recorded outcomes once you have enough."},
+    {"icon": "dollar", "title": "Recovered revenue tracking", "text": "Record each outcome and watch the dashboard add up what was won back."}
+  ],
+  "portals": {
+    "patient": ["Guided five-question intake", "Letter that cites your insurer's own policy", "Track every appeal in one place"],
+    "billing": ["835 import with automatic denial triage", "Private policy library for your organisation", "Win-rate and recovered revenue analytics"]
+  },
+  "support": [
+    {"family": "Medical necessity (CARC 50)", "cases": "Imaging, surgery, therapy and drugs denied as not necessary"},
+    {"family": "Authorization (CARC 197, 15)", "cases": "Missing or unprocessed prior authorization, retro-authorization requests"},
+    {"family": "Frequency and units (CARC 151)", "cases": "Therapy visits and units that exceed payer limits"},
+    {"family": "Missing information (CARC 16, 252)", "cases": "Claims returned for missing fields, NPI or reports"},
+    {"family": "Coding (CARC 4, 11, 97)", "cases": "Modifier and diagnosis-linkage problems"}
+  ],
+  "approach": [
+    {"title": "Parse", "text": "Read the remittance and isolate the denial code, group code, remark and amount."},
+    {"title": "Retrieve", "text": "TF-IDF search over payer policy chunks with an exact procedure-code boost, optionally blended with semantic embeddings."},
+    {"title": "Extract", "text": "Tag chart sentences as labs, imaging, exam findings, failed treatments and duration."},
+    {"title": "Check", "text": "Compare every policy criterion with the best matching chart evidence. Mark it met, partial or missing."},
+    {"title": "Draft", "text": "Write the letter. Every claim carries a [P#] policy or [E#] evidence reference, and unsupported citations are rejected."},
+    {"title": "Estimate", "text": "Score the appeal with a transparent model and list what would improve it."}
+  ],
+  "playbook": [
+    {"title": "Check the deadline", "text": "Most payers allow about 180 days from the denial. Confirm it in your plan documents."},
+    {"title": "Read the exact reason", "text": "Use the denial code and the remark code, not just the summary."},
+    {"title": "Get the policy", "text": "Ask which medical policy was applied and read its criteria."},
+    {"title": "Collect proof", "text": "Dated notes, test results, prior treatments and the physician's rationale."},
+    {"title": "Write to the criteria", "text": "Quote each requirement and point to the matching record."},
+    {"title": "Ask for a peer-to-peer", "text": "For medical-necessity denials, request a call with the payer's medical director."}
+  ],
+  "faq": [
+    {"q": "How long do I have to appeal?", "a": "Often about 180 days, but check your plan. Pramaan AI shows days left and whether the deadline rule is verified."},
+    {"q": "Does Pramaan AI send the appeal for me?", "a": "No. You review and edit the draft, download the PDF packet and send it yourself."},
+    {"q": "Are the win percentages guaranteed?", "a": "No. Until real outcomes are recorded they come from a model trained on synthetic data, and the app labels them that way."},
+    {"q": "Where does my data go?", "a": "Notes stay in this app's database. If you enable the Claude option, identifiers are removed first and only the claim facts used in the letter are sent to the Anthropic API."},
+    {"q": "Is this medical or legal advice?", "a": "No. It is decision support for billing staff and patients."}
+  ],
+  "team": [
+    {"initials": "VD", "name": "Vanshika Dixit", "role": "Team leader", "detail": "GLA University"},
+    {"initials": "SS", "name": "Sonam Sharma", "role": "Team member", "detail": "GLA University"},
+    {"initials": "SY", "name": "Dr. Sachin Kumar Yadav", "role": "Mentor", "detail": "Assistant Professor, CSA"}
+  ],
+  "about": {"title": "Denials are rarely a medical problem", "lead": "They are usually a documentation problem. Pramaan AI is a third-year minor project at GLA University, Mathura that automates the slowest part of fixing them.",
+            "name_note": "Pramaan is the Hindi word for proof or evidence. It is the one thing an insurer cannot argue with, so every appeal we draft is built around it."},
+  "footer": {"note": "Minor project, Department of Computer Science and Applications, GLA University, Mathura. Team 105.", "disclaimer": "Pramaan AI is a decision-support tool. It does not give legal or medical advice."}
+}
