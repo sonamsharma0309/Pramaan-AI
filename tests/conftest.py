@@ -2,6 +2,21 @@
 import os
 import tempfile
 
+# Keep the tests independent of anyone's local .env. config.py only fills in a value
+# from .env when the variable is not already set, so every setting that could reach an
+# external service or a real database is blanked here, and every behaviour switch is
+# pinned to its built-in default. Explicit test settings further down still win.
+os.environ.update({
+    # blanked: external services and real databases
+    "LLM_PROVIDER": "", "GEMINI_API_KEY": "", "OPENAI_COMPAT_BASE_URL": "", "OPENAI_COMPAT_API_KEY": "",
+    "OPENAI_COMPAT_MODEL": "", "GOOGLE_CLIENT_ID": "", "CONTACT_TO": "", "SMTP_USER": "", "SMTP_PASSWORD": "",
+    "DATABASE_URL": "", "SECRET_KEY": "", "JWT_SECRET": "", "CORS_ORIGINS": "",
+    # pinned to the built-in defaults
+    "COOKIE_SECURE": "false", "REQUIRE_VERIFIED": "false", "DEIDENTIFY_BEFORE_LLM": "true",
+    "EMBEDDINGS": "false", "FHIR_ENABLED": "false", "ACCESS_TOKEN_MINUTES": "15",
+    "REFRESH_TOKEN_DAYS": "7", "MAX_UPLOAD_MB": "5", "LOGIN_MAX_ATTEMPTS": "5", "LOGIN_LOCK_MINUTES": "15",
+})
+
 os.environ["DATA_DIR"] = tempfile.mkdtemp()
 os.environ["ANTHROPIC_API_KEY"] = ""
 os.environ["SMTP_HOST"] = ""
