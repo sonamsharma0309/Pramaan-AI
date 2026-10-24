@@ -555,10 +555,7 @@ Pramaan AI is a **decision-support prototype, not a certified HIPAA-compliant sy
 - [ ] E-fax / portal submission
 - [ ] SSO (SAML)
 - [ ] Org-level roles (admin vs biller)
-- [ ] Multilingual patient letters.
-
----
-*Pramaan AI is released for educational use. Add a `LICENSE` file of your choice before publishing (MIT or Apache-2.0 are common).*
+- [ ] Multilingual patient letters
 
 ---
 
@@ -572,4 +569,4 @@ Pramaan AI is a **decision-support prototype, not a certified HIPAA-compliant sy
 Repository: [github.com/sonamsharma0309/Pramaan-AI](https://github.com/sonamsharma0309/Pramaan-AI)
 
 ## License
-No license has been chosen yet. Until one is added, all rights are reserved by the authors (see [LICENSE.md](LICENSE.md)). Pramaan AI is released for educational use.
+Copyright (c) 2026 Vanshika Dixit and Sonam Sharma. All rights reserved. The source code is published for academic evaluation and learning, and no open-source license has been granted. Please contact the authors before copying, modifying, distributing or using it for any other purpose. See [LICENSE.md](LICENSE.md).

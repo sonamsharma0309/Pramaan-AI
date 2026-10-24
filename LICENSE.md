@@ -1,4 +1,5 @@
 # License
 
-No license has been chosen yet. Until you add one, all rights are reserved by the authors.
-Before publishing to GitHub, replace this file with a `LICENSE` of your choice (for example MIT or Apache-2.0).
+Copyright (c) 2026 Vanshika Dixit and Sonam Sharma. All rights reserved.
+
+Pramaan AI is a minor project of the Department of Computer Science and Applications, GLA University, Mathura (Team 105). The source code is published for academic evaluation and learning. No open-source license has been granted, so please contact the authors before copying, modifying, distributing or using it for any other purpose.
